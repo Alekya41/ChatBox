@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+img{
+    border-radius:50px;
+}
+.msgElem{
+    display:'flex' !important;
+    justify-content:'flex-end' !important;
+    text-align: end;
+    border-radius: 2rem;
+    padding-right: 2%;
+}
+.dateTime{
+    display:'flex' !important;
+    justify-content:'flex-end' !important;
+    text-align: end;
+    color:lightgray;
+    padding-right: 2%;
+    font-size: small;
+
+
+
+}
+.chatName{
+    border-bottom:1px solid;
+    border-radius: 5px;
+    padding: 6px;
+    display:flex;
+    justify-content: start;
+
+}
+    
