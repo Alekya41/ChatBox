@@ -1,0 +1,19 @@
+// MongoDB Playground
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+const database = 'mydatabase';
+const collection = 'Messages';
+
+// Create a new database.
+use(database);
+
+// Create a new collection.
+db.createCollection(collection);
+db.Messages.insertOne({'name':'Alekya','message':'Hi..How are you doing?'});
+db.Messages.find({'name':'Alekya'});
+
+const chatbox = 'ChatBox';
+use(chatbox);
+const Collection ='Chat';
+db.createCollection(Collection);
+db.Chat.insertOne({'name':'Alekya','Message':'Hello...'});
